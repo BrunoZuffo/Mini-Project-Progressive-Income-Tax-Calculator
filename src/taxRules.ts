@@ -1,0 +1,1 @@
+//Contains the brackets (faixas), limits and percentages.
