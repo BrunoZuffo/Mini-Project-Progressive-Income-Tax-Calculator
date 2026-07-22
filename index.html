@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Progressive Tax Calculator</title>
+</head>
+<body>
+    <main>
+        <h1>Progressive Tax Calculator</h1>
+
+        <label for="income">Income</label>
+        <input
+            id="income"
+            type="number"
+            step="any"
+            placeholder="Enter your income"
+        >
+
+        <button id="calculate-button" type="button">
+            Calculate
+        </button>
+
+        <p id="error-message"></p>
+
+        <section id="result">
+            <p>Gross income: <span id="gross-income"></span></p>
+            <p>Total tax: <span id="total-tax"></span></p>
+            <p>Net income: <span id="net-income"></span></p>
+            <p>
+                Effective tax rate:
+                <span id="effective-tax-rate"></span>
+                %
+            </p>
+        </section>
+    </main>
+
+    <script type="module" src="/src/web.ts"></script> <!--html loads, then Vite processes web.ts, that runs in the browser and interacts with the html, receiving data, calling the functions and displaying the results-->
+</body>
+</html>
