@@ -565,6 +565,8 @@ A future Brazilian mode must be checked against official and current sources bef
 
 ## License
 
-Add the chosen license to the repository and update this section accordingly.
+This project is licensed under the MIT License.
 
-Until a license is explicitly added, other people do not automatically receive permission to copy, modify, or redistribute the project.
+You are free to use, copy, modify, distribute, and use this software commercially, provided that the original copyright and license notice are preserved.
+
+See the [`LICENSE`](LICENSE) file for the complete license terms.
