@@ -30,9 +30,9 @@ export function calculateTax( income: number ): TaxesDetails{
     let taxBefore:number=0;
     let tax_details: TaxesDetails={
         gross_income: income,
-        total_tax: 0,
-        net_income: 0,
-        effective_tax_rate: 0,
+        total_tax: 0.00,
+        net_income: 0.00,
+        effective_tax_rate: 0.00,
         bracket_taxes_list: []
     };
     

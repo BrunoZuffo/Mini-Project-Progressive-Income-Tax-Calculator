@@ -4,22 +4,22 @@ import type { TaxBracket } from "./types.js"
 
 export const taxBracket: TaxBracket[]=[
     {
-        min:0,
-        max:2000,
+        min:0.00,
+        max:2000.00,
         rate:0
     },
     {
-        min:2000,
-        max:3000,
+        min:2000.00,
+        max:3000.00,
         rate:0.1
     },
     {
-        min:3000,
-        max:5000,
+        min:3000.00,
+        max:5000.00,
         rate:0.2
     },
     {
-        min:5000,
+        min:5000.00,
         max:Infinity,
         rate:0.3
     },
